@@ -1,3 +1,5 @@
+alert("hi");
+
 /* Variables (frinz made this hdifsdbfsbkfhsjbfuahvgduas) <- proof this is my work */
 let count = 0;
 let IsMonitoring = true;
@@ -70,3 +72,14 @@ buttonMonitor.addEventListener("click", () => {
   IsMonitoring = !IsMonitoring;
 });
 
+// --------------- // --------------- //
+
+const themeBtn = document.querySelector("#themeBtn");
+
+themeBtn.addEventListener("click", () => {
+  document.body.classList.toggle("dark-theme");
+});
+
+document.querySelector(".larp-button").addEventListener("click", () => {
+  alert("larp larpity larp larp larp");
+});

@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 
+/* system info bar */
 div {
   display: flex;
   align-items: center;
@@ -28,3 +29,41 @@ p {
   gap: 10px;
   padding: 10px;
 }
+
+/* --------------- */
+
+/* switch theme button */
+#themeBtn, .larp-button {
+  border-radius: 20px;
+  background: linear-gradient(45deg, coral, red);
+  border: none;
+  font-family: "Playwrite GB J", cursive;
+  height: 75px;
+  width: 250px;
+  color: white;
+  font-size: 1.3rem;
+  transition: all 0.3s ease-in;
+}
+
+#themeBtn:hover, .larp-button:hover {
+  opacity: 0.7;
+}
+
+#themeBtn:active, .larp-button:active {
+  transform: scale(0.95);
+  color: gray;
+}
+/* dark them for body something */
+.dark-theme {
+  background-color: #2e2e2e;
+  color: white;
+}
+
+.dark-theme div {
+  background: linear-gradient(45deg, gray, #2e2e2e);
+}
+
+.dark-theme h1, .dark-theme p {
+  color: rgba(235, 235, 235, 1);
+}
+
