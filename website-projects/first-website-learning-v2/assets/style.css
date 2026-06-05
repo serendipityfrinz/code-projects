@@ -9,7 +9,7 @@
 }
 
 div {
-  background: linear-gradient(45deg, blue, red);
+  background: linear-gradient(45deg, red, coral);
   border-radius: 20px;
   padding: 10px;
 }

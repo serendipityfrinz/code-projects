@@ -80,6 +80,3 @@ themeBtn.addEventListener("click", () => {
   document.body.classList.toggle("dark-theme");
 });
 
-document.querySelector(".larp-button").addEventListener("click", () => {
-  alert("larp larpity larp larp larp");
-});
